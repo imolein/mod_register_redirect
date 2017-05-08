@@ -3,8 +3,11 @@ I publish the fixed version of [mod_register_redirect](https://modules.prosody.i
 
 ### Change in this version
 I only changed line 9 from
+
 `local cman = configmanager`
+
 to
+
 `local cman = require "core.configmanager"`
 
 (and a type in README.markdown ;-) )
